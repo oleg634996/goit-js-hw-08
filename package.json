@@ -6,7 +6,8 @@
   "homepage": "https://oleg634996.github.io/goit-js-hw-08/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,10 @@
     "parcel-plugin-nuke-dist": "^1.0.1",
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.16.1",
+    "lodash.throttle": "^4.1.1",
+    "simplelightbox": "^2.9.0"
   }
 }
