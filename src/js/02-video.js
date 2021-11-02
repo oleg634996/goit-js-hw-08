@@ -12,3 +12,7 @@ player.setCurrentTime(currentTime)
 
 player.on('timeupdate',throttle(data => localStorage.setItem(LOCALSTORAGE_KEY,data.seconds),1000))
 
+    if (localStorage !== 0) {
+        localStorage.removeItem(LOCALSTORAGE_KEY)
+    }
+
